@@ -1,0 +1,13 @@
+
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Archivos compilados
+*.class
+
+# Archivos temporales
+*.log
