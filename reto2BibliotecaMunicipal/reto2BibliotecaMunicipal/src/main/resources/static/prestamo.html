@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Préstamo de libros</title>
+</head>
+<body>
+
+<h1>Biblioteca Municipal</h1>
+<h2>Solicitar préstamo</h2>
+
+<form action="/prestamo" method="post">
+
+    <p>
+        ID del libro:
+        <input type="number" name="libroId" required>
+    </p>
+
+    <p>
+        Nombre del socio:
+        <input type="text" name="nombreSocio" required>
+    </p>
+
+    <p>
+        Días de préstamo:
+        <input type="number" name="diasPrestamo" required>
+    </p>
+
+    <p>
+        <input type="checkbox" name="carnetPremium" value="true">
+        Carnet premium
+    </p>
+
+    <button type="submit">Solicitar préstamo</button>
+
+</form>
+
+</body>
+</html>
